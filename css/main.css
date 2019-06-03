@@ -7,9 +7,17 @@ body{
   margin: 0 auto;
 }
 
+.wrapper{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  width:1280px;
+
+}
+
 .mainNav{
   height: 225px;
-  background-color: #dfdcdc;
+  background-color: #a6be4f;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -19,6 +27,8 @@ body{
   margin-top: 40px;
   margin-right: 65px;
   list-style-type: none;
+  background-color: white;
+  height: 35px;
 
 }
 
@@ -33,28 +43,74 @@ body{
   margin-left: 50px;
   width:200px;
   height: 200px;
-  background-color: #808080;
+
 }
 
 .welcomeText{
+ 
+  font-size: 40px;
   margin-top: 20px;
   margin-bottom: 15px;
-  background-color: #897f7f;
-  width:300px;
-  height: 75px;
+  width:525px;
+  height: 40px;
 }
 
-.intros{
+.welcomeText p{
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.businessBox{
+  margin-bottom: 48px;
+  align-self:center;
+  width: 1100px;
+  height:200px;
+  background-color: #d7b65d;
+}
+
+.businessBox h1{
+  font-weight: 400;
+  margin-top: 36px;
+  margin-bottom: 17px;
+  font-size: 35px;
+  margin-left: 40px;
+
+}
+
+.businessBox h2{
+
+  margin-left:40px;
+  width:900px;
+  font-size: 30px;
+}
+
+.about{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
-.introBox{
+.photoTitle{
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom:15px;
+  background-color: black;
+  height:60px;
+  width:275px;
+}
+
+.photoTitle p{
+  font-size: 60px;
+}
+
+.aboutBox{
+  display: flex;
+  flex-direction:row;
+  align-self:center;
   margin-bottom: 30px;
-  width:500px;
-  height:300px;
+  width:1150px;
+  height:450px;
   background-color: #999999;
 }
  #titleText{
@@ -68,17 +124,19 @@ body{
 
 
 .welcomePhoto{
-  margin: 30px 0 20px 25px;
-  width:  202px;
-  height: 120px;
+ 
+  width:  400px;
+  height: 350px;
   background-color: #666666;
 }
 
 .introText{
+  display: flex;
+  flex-direction:column;
   margin-left: 25px;
   background-color: white;
-  width: 430px;
-  height: 100px;
+  width: 700px;
+  height: 450px;
 }
 
 .aboutSect{
