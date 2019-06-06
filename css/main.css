@@ -207,10 +207,16 @@ body{
 }
 
 .icon{
+
   display: flex;
   flex-direction: column;
   justify-content: top;
   align-items: center;
+}
+
+.icon img{
+  height: 100px;
+  margin-bottom: 30px;
 }
 
 #iconsUp h3{
@@ -518,3 +524,4 @@ margin-right:85px;
   cursor:pointer;
 
 }
+<!--End of the homepage, from this point on things will be separated by page-->
