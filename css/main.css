@@ -524,4 +524,107 @@ margin-right:85px;
   cursor:pointer;
 
 }
-<!--End of the homepage, from this point on things will be separated by page-->
+/*--End of the homepage, from this point on things will be separated by page
+
+Beggining of the projects pag*/
+
+#projects{
+  width: 1280px;
+  margin:0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectTitle{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#imageHolder{
+  margin-bottom: 110px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width:1280px;
+  height:780px;
+  background-image: url(../images/free-stock-photos/bgPic-project.jpg);
+  background-repeat:no-repeat;
+}
+
+#photoText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(87, 110, 115, .66);
+  width:750px;
+  height:250px;
+
+}
+
+#projectPicTitle{
+  font-family: 'EB Garamond', sans-serif;
+  font-size:36px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#textPhoto{
+  text-align: left;
+  width:700px;
+  font-size: 22px;
+  color:white;
+}
+.projectTitle2{
+  font-size: 40px;
+  font-weight: bold;
+}
+.subtitleProject{
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+.video{
+  box-shadow: inset 0 0 1em black, 0 0 1em black;
+}
+
+#fundraising{
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top:100px;
+  background-color: #ffa992;
+  width: 1280px;
+}
+
+.monitoring{
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.monitoring h1{
+  margin-bottom: 80px;
+}
+
+.imgBox{
+  width:1280px;
+  height: 310px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
