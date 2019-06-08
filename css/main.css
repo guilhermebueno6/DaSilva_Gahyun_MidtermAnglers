@@ -77,30 +77,29 @@ body{
 
 .businessBox {
   margin-bottom: 48px;
-  align-self:center;
+  align-self: center;
   width: 1100px;
   height:200px;
   background-color: rgba(215, 182, 93, .43);
   margin-top:92px;
-
 }
 
 .businessBox h1 {
   font-weight: 500;
-  margin-top: 36px;
+  margin-top: 35px;
   margin-bottom: 17px;
-  font-size: 35px;
+  font-size: 45px;
   margin-left: 40px;
-
-
 }
 
-.businessBox h2{
+.businessBox h2 {
+  margin-left: 60px;
+  margin-top: 40px;
 
-  margin-left:40px;
-  width:900px;
-  font-size: 30px;
-  font-weight: 600;
+  width: 900px;
+  
+  font-size: 35px;
+  font-family: "interstate", sans-serif;
 }
 
 .about{
@@ -442,8 +441,8 @@ body{
 }
 
 .mainFooter{
-  width:1280px;
-  height:180px;
+  width: 1280px;
+  height: 180px;
   background-color: #a6be4f;
   display: flex;
   flex-direction: row;
@@ -454,20 +453,21 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height:50px;
+  margin-right: 50px;
+  height: 50px;
   background-color: white;
   list-style-type: none;
 }
 
 .footerWrapper{
-  height:150px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 .mainFooter ul li{
-  padding:10px;
+  padding: 10px;
   margin-right: 15px;
 
   font-size:25px;
@@ -488,7 +488,7 @@ body{
 
 .addressBox{
   font-weight: 500;
-  font-size: 28px;
+  font-size: 20px;
   margin-top:5px;
   height:70px;
   display: flex;
@@ -497,6 +497,13 @@ body{
   text-align: center;
   width: 710px;
   background-color: white;
+}
+
+.addressBox p {
+  font-size: 20px;
+  font-family: interstate-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #addressWrap{
@@ -674,30 +681,43 @@ Beggining of the projects pag*/
   margin-bottom: 40px;
 }
 
-.newsBodyText{
-  margin-bottom: 80px;
-  width:700px;
-  height: 520px;
-  background-color: #f3e5ba;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.newstext-1 {
+  font-family: interstate, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+
+  text-align: center;
 }
 
-#leftSide{
-  margin-top:80px;
-  width:200px;
-  font-size: 20px;
-}
-#rightSide{
-  margin-top:80px;
-  width: 200px;
-  font-size: 20px;
+.newstext-2 {
+  width: 1200px;
+  height: 600px;
+  background: #f3e5ba;
+
+  padding-top: 100px;
 }
 
-.archive{
-  width:1250px;
+#uppertext {
+  width: 1000px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+#belowtext {
+
+  width: 1000px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+
+
+.archive {
+  width: 1250px;
   margin-bottom: 100px;
+  margin-top: 100px;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -714,6 +734,9 @@ Beggining of the projects pag*/
   margin-top: 5px;
   margin-bottom: 20px;
   color:grey;
+
+  line-height: 20px;
+  padding-top: 10px;
 
   width:500px;
 }
