@@ -166,35 +166,37 @@ body{
   flex-direction: column;
   justify-content: center;
 }
+
 .aboutTitle{
   font-weight: 500;
   margin-bottom: 20px;
   text-align: center;
-  font-size:75px;
+  font-size: 60px;
 }
 
 .aboutSub{
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
 
 }
 
 #iconsUp{
-  margin-top:45px;
+  margin-top: 45px;
   margin-bottom: 150px;
   align-self: center;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width:1000px;
+  width: 1000px;
+
 }
 
 #iconsDown{
   align-self: center;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width:1000px;
+  width: 1000px;
   margin-bottom: 26px;
 }
 
@@ -230,7 +232,7 @@ body{
   margin-left: 800px;
   width:305px;
   height:53px;
-  background-color: #dde8e4;
+  background-color: #78e7be;
   align-self: flex-end;
   text-align: center;
   transition: all 0.5s;
@@ -241,32 +243,32 @@ body{
   font-weight: bold;
 }
 
-#button:hover{
+#button:hover {
   cursor: pointer;
   background-color: #c8d3cf;
 }
 
-#newsSection{
+#newsSection {
   align-self: center;
   margin-top: 70px;
   margin-bottom: 100px;
   width:1100px;
 }
 
-#newsSection h2{
-  font-size: 45px;
+#newsSection h2 {
+  font-size: 40px;
   font-weight: 600;
   text-align: center;
   margin-bottom: 30px;
 }
 
-.eventWrapper{
+.eventWrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-}
+
 .event{
   width:400px;
 }
@@ -304,23 +306,23 @@ body{
 
 .box{
   background-color: #d6dfab;
-  margin-left:35px;
+  margin-left : 35px;
   margin-bottom: 95px;
   margin-right: 35px;
-  width:275px;
-  height:500px;
+  width: 275px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .box img{
-  margin-top:28px;
+  margin-top: 20px;
 }
 
 .box p{
   font-size: 18px;
-  width:215px;
+  width: 215px;
 
 }
 
@@ -336,29 +338,29 @@ body{
   justify-content: center;
 }
 
-#melch{
+#melch {
   height: 79px;
   margin-bottom: 30px;
 }
 
-#guil{
-  height: 54px;
-  margin-bottom: 55px;
+#guil {
+  height: 50px;
+  margin-bottom: 30px;
 }
 
-#tryR{
+#tryR{ 
   height: 80px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
-#muma{
+#muma {
   height: 51px;
   margin-bottom: 32px;
 }
 
 #angS{
   height: 120px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 #credits{
