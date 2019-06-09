@@ -80,7 +80,7 @@ body{
   align-self: center;
   width: 1100px;
   height:200px;
-  background-color: rgba(215, 182, 93, .43);
+  background-color: rgba(255, 255, 255, 0.43);
   margin-top:92px;
 }
 
@@ -88,7 +88,7 @@ body{
   font-weight: 500;
   margin-top: 35px;
   margin-bottom: 17px;
-  font-size: 45px;
+  font-size: 40px;
   margin-left: 40px;
 }
 
@@ -124,8 +124,7 @@ body{
 
 
  #titleText{
-
-   width:455px;
+  width:455px;
    height:80px;
    background-color: #999999;
    margin: 30px 0 30px 0;
@@ -153,7 +152,7 @@ body{
 #imgBG{
   margin-bottom: 65px;
   align-self: center;
-  width:1100px;
+  width: 1100px;
   height: 640px;
   background-image: url(../images/free-stock-photos/fishermen.jpg);
   background-repeat: no-repeat;
@@ -161,17 +160,18 @@ body{
 
 #about{
   align-self: center;
-  width:1000px;
+  width: 1000px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.aboutTitle{
-  font-weight: 500;
+.aboutTitle {
+  font-weight: 600;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .aboutSub{
@@ -196,17 +196,19 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1000px;
+  width: 1150px;
   margin-bottom: 26px;
 }
 
 #iconsDown h3{
   text-align: center;
-  width: 165px;
+  width: 300px;
   font-size: 20px;
 }
 
 .icon{
+
+  margin-top: 100px;
 
   display: flex;
   flex-direction: column;
@@ -221,7 +223,7 @@ body{
 
 #iconsUp h3{
   text-align: center;
-  width:165px;
+  width: 165px;
   font-size: 20px;
 }
 
@@ -229,23 +231,30 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
+  margin-top: 50px;
   margin-left: 800px;
-  width:305px;
+  
+  width: 305px;
   height:53px;
-  background-color: #78e7be;
+  background-color: #b9eb44;
+  
   align-self: flex-end;
   text-align: center;
   transition: all 0.5s;
 }
 
-#button h2{
+#button h2 {
   font-size: 25px;
   font-weight: bold;
 }
 
 #button:hover {
   cursor: pointer;
-  background-color: #c8d3cf;
+  background-color: #ffffff;
+  font-family: forma-djr-text, sans-serif;
+  font-weight: 400;
+  font-style: normal; 
 }
 
 #newsSection {
@@ -256,10 +265,13 @@ body{
 }
 
 #newsSection h2 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 600;
   text-align: center;
+
+  margin-top: 50px;
   margin-bottom: 30px;
+
 }
 
 .eventWrapper {
@@ -279,8 +291,8 @@ body{
 }
 
 .event h3{
-  font-size:30px;
-  width:400px;
+  font-size: 30px;
+  width: 400px;
   margin-bottom: 30px;
   font-weight: 500;
 }
@@ -632,7 +644,6 @@ Beggining of the projects pag*/
 }
 
 
-
 .fund-button {
   position: absolute;
   margin-top: 45px;
@@ -646,13 +657,19 @@ Beggining of the projects pag*/
   font-family: interstate, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 18px;
 
-  font-size: 1rem;
+  background-color: #aef800;
   border: none;
+  transition: all 0.8s;
+
+  margin-top: 85px;
 }
 
 #fund:hover {
   background-color: #ffffff;
+  border-radius: 20px;
+
 }
 
 #first-text {
@@ -689,9 +706,15 @@ Beggining of the projects pag*/
 
 #project-part button {
   font-size: 35px;
-  background-color: #dde8e4;
+  background-color: #a6be4f;
+  transition: all 0.5s;
+  border: none;
 
   margin-top: 30px;
+}
+
+#project-part button:hover {
+  background-color: #fff;
 }
 
 #second-text {
@@ -707,7 +730,7 @@ Beggining of the projects pag*/
   display: flex;
   flex-direction: row;
   width: 1280px;
-  justify-content: space-around;
+  justify-content: space-between;
   
   margin-top: 100px;
   margin-bottom: 300px;
@@ -725,11 +748,15 @@ Beggining of the projects pag*/
 
 .archives button {
   font-size: 35px;
+
   background-color: #a6be4f;
-  margin: 60px;
+  margin: 30px;
+  border: none;
 }
 
-
+.archives button:hover {
+  background-color: #fff;
+}
 
 
 .monitoring h1{
@@ -751,7 +778,7 @@ Beggining of the projects pag*/
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .newsTitle{
@@ -797,17 +824,15 @@ Beggining of the projects pag*/
   margin-left: 100px;
 }
 
-
-
 .archive {
+
   width: 1250px;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  margin: 100px 0 100px 10px;
+
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-
+  justify-content: space-around;
 }
 
 #archiveTitle{
