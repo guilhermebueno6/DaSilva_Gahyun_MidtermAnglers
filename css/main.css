@@ -577,7 +577,9 @@ Beggining of the projects pag*/
   font-style: italic;
   font-weight: bold;
   color: white;
-  margin-bottom: 20px;
+
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 #textPhoto{
@@ -608,7 +610,6 @@ Beggining of the projects pag*/
   font-size: 35px;
   font-weight: bold;
   margin-top:100px;
-  background-color: #e6f374;
   width: 1280px;
 }
 
@@ -626,6 +627,12 @@ Beggining of the projects pag*/
   position: relative;
 }
 
+#fundraising img {
+  margin-top: 100px;
+}
+
+
+
 .fund-button {
   position: absolute;
   margin-top: 45px;
@@ -641,13 +648,89 @@ Beggining of the projects pag*/
   font-style: normal;
 
   font-size: 1rem;
-  background-color: #28e83a;
   border: none;
 }
 
 #fund:hover {
   background-color: #ffffff;
 }
+
+#first-text {
+  margin-top: 40px;
+  margin-bottom: 60px;
+
+  font-size: 50px;
+}
+
+.projectContent {
+  display: flex;
+  flex-direction: row;
+  width: 1280px;
+  justify-content: space-around;
+
+  font-size: 20px;
+}
+
+#project-part {
+  margin: 70px 0 30px 0;
+}
+
+#project-part h1 {
+  font-size:  30px;
+  font-weight: 600;
+
+  margin-bottom: 10px;
+}
+
+#project-part p {
+  font-size: 18px;
+  margin: 20px 0 20px 0;
+}
+
+#project-part button {
+  font-size: 35px;
+  background-color: #dde8e4;
+
+  margin-top: 30px;
+}
+
+#second-text {
+  margin-top: 40px;
+  margin-bottom: 60px;
+
+  font-size: 50px;
+}
+
+
+
+.archives {
+  display: flex;
+  flex-direction: row;
+  width: 1280px;
+  justify-content: space-around;
+  
+  margin-top: 100px;
+  margin-bottom: 300px;
+  font-size: 20px;
+
+}
+
+.archives h2 {
+  font-size: 30px;
+  font-weight: 600;
+
+  margin-bottom: 10px;
+}
+
+
+.archives button {
+  font-size: 35px;
+  background-color: #a6be4f;
+  margin: 60px;
+}
+
+
+
 
 .monitoring h1{
   margin-bottom: 80px;
