@@ -938,7 +938,14 @@ Beggining of the projects pag*/
 
 }
 
-.archItems h2:hover{
+
+
+.archItems a{
+  text-decoration: none;
+  color:black;
+}
+
+.archItems a:hover{
   cursor: pointer;
   color:#002259;
 }
