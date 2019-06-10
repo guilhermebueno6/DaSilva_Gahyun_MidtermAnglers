@@ -18,6 +18,7 @@ body{
 }
 
 .mainNav{
+
   height: 225px;
   background-color: #a6be4f;
   display: flex;
@@ -97,7 +98,7 @@ body{
   margin-top: 40px;
 
   width: 900px;
-  
+
   font-size: 35px;
   font-family: "interstate", sans-serif;
 }
@@ -231,14 +232,14 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
   margin-top: 50px;
   margin-left: 800px;
-  
+
   width: 305px;
   height:53px;
   background-color: #b9eb44;
-  
+
   align-self: flex-end;
   text-align: center;
   transition: all 0.5s;
@@ -252,9 +253,9 @@ body{
 #button:hover {
   cursor: pointer;
   background-color: #ffffff;
-  font-family: forma-djr-text, sans-serif;
+
   font-weight: 400;
-  font-style: normal; 
+  font-style: normal;
 }
 
 #newsSection {
@@ -360,7 +361,7 @@ body{
   margin-bottom: 30px;
 }
 
-#tryR{ 
+#tryR{
   height: 80px;
   margin-bottom: 30px;
 }
@@ -461,6 +462,11 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.mainFooter a{
+  text-decoration: none;
+  color: black;
 }
 
 .mainFooter ul{
@@ -626,7 +632,16 @@ Beggining of the projects pag*/
 }
 
 #fundraising {
-  position: relative;
+  background-color: #cbe2ea;
+  width: 1280px;
+  height: 250px;
+
+}
+
+#fundraising h1{
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: bolder;
 }
 
 #fundraising img {
@@ -635,15 +650,52 @@ Beggining of the projects pag*/
 
 
 .fund-button {
-  position: absolute;
-  margin-top: 45px;
+
+/*  margin-top: 45px; */
+  margin-bottom: 10px;
   width: 1050px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-#fund {
+.button3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:250px;
+  height: 167px;
+  background-image: url(../images/third-image-fundraising.jpeg);
+}
+
+.button2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:250px;
+  height: 167px;
+  background-image: url(../images/second-image-fundraising.jpeg);
+}
+
+.button1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:250px;
+  height: 167px;
+  background-image: url(../images/first-image-fundraising.jpeg);
+}
+
+.fund {
+  width:220px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: interstate, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -653,12 +705,13 @@ Beggining of the projects pag*/
   border: none;
   transition: all 0.8s;
 
-  margin-top: 85px;
+
 }
 
-#fund:hover {
+.fund:hover {
+  cursor: pointer;
   background-color: #ffffff;
-  border-radius: 20px;
+  border-radius: 15px;
 
 }
 
@@ -676,6 +729,21 @@ Beggining of the projects pag*/
   justify-content: space-around;
 
   font-size: 20px;
+}
+
+#project-three{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#project-four{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #project-part {
@@ -705,9 +773,13 @@ Beggining of the projects pag*/
 
 #project-part button:hover {
   background-color: #fff;
+  cursor: pointer;
+
 }
 
-#proj-image p {
+
+
+.proj-image p {
   width: 420.48px;
   height: 62px;
 
@@ -715,10 +787,13 @@ Beggining of the projects pag*/
 
 }
 
+.proj-image img{
+  height:259px;
+}
+
 #second-text {
   margin-top: 40px;
   margin-bottom: 60px;
-
   font-size: 50px;
 }
 
@@ -729,7 +804,7 @@ Beggining of the projects pag*/
   flex-direction: row;
   width: 1200px;
   justify-content: space-between;
-  
+
   margin-top: 100px;
   margin-bottom: 300px;
   font-size: 20px;
@@ -860,6 +935,12 @@ Beggining of the projects pag*/
   background-image: url(../images/archive-background.png);
   background-repeat: no-repeat;
 
+
+}
+
+.archItems h2:hover{
+  cursor: pointer;
+  color:#002259;
 }
 
 .year{
