@@ -11,6 +11,7 @@
 </head>
 <body>
   <nav class="mainNav">
+    <div id="burgerMenu"></div>
     <div class="logo"><img src="images/TRAA_logo.svg" alt="TRAA Logo"></div>
     <ul>
       <a href="index.html"><li>Home</li></a>
@@ -21,6 +22,16 @@
       <a href="contact.html"><li>Contact Us</li></a>
     </ul>
   </nav>
+  <div id="dropMenu">
+    <ul>
+      <a href="index.html"><li>Home</li></a>
+      <a href="events.html"><li>Events</li></a>
+      <a href="projects.html"><li>Projects</li></a>
+      <a href="newsletter.html"><li>Newsletters</li></a>
+      <a href="links.html"><li>Links</li></a>
+      <a href="contact.html"><li>Contact Us</li></a>
+  </ul>
+</div>
 
 
   <main id="projects">
@@ -33,17 +44,18 @@
       </div>
     </div>
 
-    <iframe width="976" height="588" src="https://www.youtube.com/embed/A4lJqdQ3YMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+    <iframe id="desktopVid" width="976" height="588" src="https://www.youtube.com/embed/A4lJqdQ3YMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id="mobileVid" width="340" height="200" src="https://www.youtube.com/embed/A4lJqdQ3YMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id="tabletVid" width="500" height="300" src="https://www.youtube.com/embed/A4lJqdQ3YMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
       <div id="fundraising">
           <h1>FUNDRAISING</h1>
           <!--<img src="images/fund-banner-final.jpg" alt="banner">-->
           <section class="fund-button">
-          <div class="button1"><div class="fund">TRAA Trout Hatchery</div></div>
-          <div class="button2"><div class="fund">Salmonid Monitoring</div></div>
-          <div class="button3"><div class="fund">Komoka Creek<br>Hydrological Study</div></div>
+          <div class="button1"><div class="fund"><h2>TRAA Trout Hatchery</h2></div></div>
+          <div class="button2"><div class="fund"><h2>Salmonid Monitoring</h2></div></div>
+          <div class="button3"><div class="fund"><h2>Komoka Creek<br>Hydrological Study</h2></div></div>
         </section>
         </div>
 
@@ -97,7 +109,7 @@
 
 
   <footer class="mainFooter">
-    <a href="#"></a><img src="images/TRAA_logo.svg" alt="TRAA Logo" class="footerLogo">
+    <a href="index.html"></a><img src="images/TRAA_logo.svg" alt="TRAA Logo" class="footerLogo">
     <div class="footerWrapper">
 
 
@@ -119,6 +131,6 @@
 
 
   </footer>
-
+<script src="js/main.js" charset="utf-8"></script>
 </body>
 </html>

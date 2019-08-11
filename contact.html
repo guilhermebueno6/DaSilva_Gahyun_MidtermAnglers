@@ -10,6 +10,7 @@
 </head>
 <body>
   <nav class="mainNav">
+    <div id="burgerMenu"></div>
     <div class="logo"><img src="images/TRAA_logo.svg" alt="TRAA Logo"></div>
     <ul>
       <a href="index.html"><li>Home</li></a>
@@ -20,15 +21,24 @@
       <a href="contact.html"><li>Contact Us</li></a>
     </ul>
   </nav>
+  <div id="dropMenu">
+    <ul>
+      <a href="index.html"><li>Home</li></a>
+      <a href="events.html"><li>Events</li></a>
+      <a href="projects.html"><li>Projects</li></a>
+      <a href="newsletter.html"><li>Newsletters</li></a>
+      <a href="links.html"><li>Links</li></a>
+      <a href="contact.html"><li>Contact Us</li></a>
+  </ul>
+</div>
   <main id="mainContact">
+
+    <div class="memberScreen"><h1 id="closebutton">X</h1><h1 id="membertitle">Now You Are a Member!</h1></div>
 
 
     <h1 class="projectTitle">Contact Us</h1>
 
-    <section id="contactIntro">
-      <img src="" alt="">
-      <p>There's a bunch of ways to get in touch with the TRAA. If you're with a like minded organization or group looking for more information on the TRAAand its activities or ...<br>If you're an individual who would like to become involved with the activities undertaken by the TRAA...<br>The TRAA would like to hear from you.</p>
-    </section>
+
 
     <section id="membership">
       <h1>MEMBERSHIP</h1>
@@ -63,13 +73,28 @@
 
       </div>
     </section>
+    <section id="contactinfo">
+      <h1 id="contacttitle">CONTACT INFORMATION</h1>
+      <div>
+        <h1>Email</h1>
+        <h2>traa@anglers.org</h2>
+      </div>
+      <div>
+        <h1>Address</h1>
+        <h2>2202 Coronation Drive</h2>
+      </div>
+      <div>
+        <h1>Facebook</h1>
+        <h2>facebook.com/groups/4TRAA/about/</h2>
+      </div>
+    </section>
 
 
 
   </main>
 
   <footer class="mainFooter">
-    <a href="#"></a><img src="images/TRAA_logo.svg" alt="TRAA Logo" class="footerLogo">
+    <a href="index.html"></a><img src="images/TRAA_logo.svg" alt="TRAA Logo" class="footerLogo">
     <div class="footerWrapper">
 
 
@@ -90,6 +115,7 @@ London, Ontario <br>
   </div>
 
   </footer>
-
+<script src="js/contact.js" charset="utf-8"></script>
+<script src="js/main.js" charset="utf-8"></script>
 </body>
 </html>
