@@ -351,8 +351,11 @@ a{
 .productimgs img{
   margin-top: 50px;
   margin-bottom: 100px;
-  margin-right: 50px;
+  margin-right: 100px;
   height: 200px;
+}
+#bag{
+  margin-right: 0;
 }
 
 .box{
@@ -533,6 +536,9 @@ box-shadow: 0px -3px 6px -3px rgba(26,26,26,1);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.footerWrapper a{
+  margin-top: 10px;
 }
 
 .mainFooter ul li{
@@ -1391,6 +1397,10 @@ input{
   }
   .mainNav ul{
     display: none;
+  }
+  .logo{
+    width: 150px;
+    margin-top: 40px;
   }
   .eventWrapper{
     display: flex;
