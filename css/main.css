@@ -5,19 +5,24 @@
 
 
 body{
-  width: 1280px;
+  max-width: 100%;
   font-family: "interstate", sans-serif;
   margin: 0 auto;
+
 }
 
 .wrapper{
+  margin: 0 auto;
+
   align-items: center;
   display: flex;
   flex-direction:column;
   justify-content:center;
-  width:1280px;
+  max-width:1280px;
 
 }
+
+
 
 .mainNav{
   background: -moz-linear-gradient(top, #a6be4f 0%, #7b8c3a 100%);
@@ -46,10 +51,10 @@ body{
 }
 
 .mainNav li {
-  background-color: white;
+
   padding:5px;
-  border-radius: 15px;
-  font-size: 25px;
+  border-radius: 5px;
+  font-size: 1.25em;
   display: inline;
   margin-left: 15px;
   margin-right: 15px;
@@ -57,12 +62,12 @@ body{
 }
 
 .mainNav li:hover{
-  background-color: #82953f;
+  background-color: #acbf65;
 }
 
 .mainNav a {
   text-decoration: none;
-  color:black;
+  color:white;
 
 }
 
@@ -74,14 +79,14 @@ body{
 
 .welcomeText{
 
-  font-size: 40px;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  font-size: 2.5em;
+  margin-top: 50px;
+  margin-bottom: 50px;
   width:525px;
   height: 40px;
 }
 
-.welcomeText p {
+.welcomeText h1 {
   margin-left: 65px;
   font-weight: bold;
 }
@@ -99,7 +104,7 @@ body{
   font-weight: 500;
   margin-top: 35px;
   margin-bottom: 17px;
-  font-size: 40px;
+  font-size: 2.5em;
   margin-left: 40px;
 }
 
@@ -109,7 +114,7 @@ body{
 
   width: 900px;
 
-  font-size: 35px;
+  font-size: 2em;
   font-family: "interstate", sans-serif;
 }
 
@@ -130,7 +135,7 @@ body{
 }
 
 .photoTitle p{
-  font-size: 60px;
+  font-size: 2.6em;
 }
 
 
@@ -163,15 +168,15 @@ body{
 #imgBG{
   margin-bottom: 65px;
   align-self: center;
-  width: 1100px;
+  max-width: 1100px;
   height: 640px;
-  background-image: url(../images/free-stock-photos/fishermen.jpg);
+  background-image: url(../images/homepage-firstimg.png);
   background-repeat: no-repeat;
 }
 
 #about{
   align-self: center;
-  width: 1000px;
+  max-width: 1000px;
   margin-top: 100px;
   display: flex;
   flex-direction: column;
@@ -182,12 +187,12 @@ body{
   font-weight: 600;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 50px;
+  font-size: 2.5em;
 }
 
 .aboutSub{
   text-align: center;
-  font-size: 25px;
+  font-size: 1em;
 
 }
 
@@ -214,7 +219,7 @@ body{
 #iconsDown h3{
   text-align: center;
   width: 300px;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 .icon{
@@ -235,39 +240,48 @@ body{
 #iconsUp h3{
   text-align: center;
   width: 165px;
-  font-size: 20px;
+  font-size: 1em;
 }
 
-#button{
+.projectPage{
+  align-self: center !important;
+}
+
+.button{
 
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  align-items: center;
   margin-top: 50px;
-  margin-left: 800px;
+  margin-bottom: 50px;
+
 
   width: 305px;
   height:53px;
-  background-color: #b9eb44;
+  background-color:#aeaeae;
 
   align-self: flex-end;
   text-align: center;
   transition: all 0.5s;
 }
 
-#button h2 {
-  font-size: 25px;
+.button h2 {
+  font-size: 1.5em;
   font-weight: bold;
 }
 
-#button:hover {
+.button:hover {
   cursor: pointer;
-  background-color: #ffffff;
+  background-color:  #b9eb44;
 
   font-weight: 400;
   font-style: normal;
+}
+
+a{
+  text-decoration: none;
 }
 
 #newsSection {
@@ -278,7 +292,7 @@ body{
 }
 
 #newsSection h2 {
-  font-size: 45px;
+  font-size: 2.5em;
   font-weight: 600;
   text-align: center;
 
@@ -304,7 +318,7 @@ body{
 }
 
 .event h3{
-  font-size: 30px;
+  font-size: 2em;
   width: 400px;
   margin-bottom: 30px;
   font-weight: 500;
@@ -312,12 +326,12 @@ body{
 
 .event p{
   width:400px;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 .supportingBus h1{
   text-align: center;
-  font-size: 36px;
+  font-size: 2em;
   font-weight: bold;
   margin-bottom: 5px;
 }
@@ -325,17 +339,29 @@ body{
 .supportingBus h2{
   text-align: center;
   margin-bottom: 55px;
-  font-size: 30px;
+  font-size: 2em;
   font-weight: 400;
+}
+.productimgs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.productimgs img{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  height: 200px;
 }
 
 .box{
-  background-color: #d6dfab;
+  background-color: white;
   margin-left : 35px;
   margin-bottom: 95px;
   margin-right: 35px;
   width: 275px;
-  height: 500px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -346,7 +372,7 @@ body{
 }
 
 .box p{
-  font-size: 18px;
+  font-size: 1em;
   width: 215px;
 
 }
@@ -401,15 +427,15 @@ body{
   justify-content: space-evenly;
   margin-bottom: 70px;
   padding-left: 40px;
-  width:930px;
-  height:320px;
-  border-width:  10px;
+  max-width:930px;
+  max-height:320px;
+  border-width:  5px;
   border-style: solid;
   border-color: #637333;
 }
 
 .creditsTitle{
-  font-size: 30px;
+  font-size: 2em;
   font-weight: bolder;
 }
 
@@ -440,12 +466,12 @@ body{
 }
 
 .position{
-  font-size: 30px;
+  font-size: 2em;
   font-weight: normal;
 }
 
 .person{
-  font-size: 30px;
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -459,7 +485,8 @@ body{
 
 .creditsTitle2 h1{
   width: 330px;
-  font-size: 30px;
+
+  font-size: 2em;
   font-weight: bolder;
 }
 
@@ -468,7 +495,7 @@ body{
 }
 
 .mainFooter{
-  width: 1280px;
+  width: 100%;
   height: 180px;
   background-color: #a6be4f;
 
@@ -488,7 +515,7 @@ box-shadow: 0px -3px 6px -3px rgba(26,26,26,1);
 
 .mainFooter a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .mainFooter ul{
@@ -497,7 +524,7 @@ box-shadow: 0px -3px 6px -3px rgba(26,26,26,1);
   justify-content: space-evenly;
   margin-right: 50px;
   height: 50px;
-  background-color: white;
+
   list-style-type: none;
 }
 
@@ -511,26 +538,23 @@ box-shadow: 0px -3px 6px -3px rgba(26,26,26,1);
 .mainFooter ul li{
   padding: 10px;
   margin-right: 15px;
-
-  font-size:25px;
+  border-radius: 5px;
+  font-size:1.5em;
   font-weight: bolder;
   display: inline;
 }
 .mainFooter ul li:hover{
-  background-color: #82953f;
+  background-color: #a1b84c;
   cursor: pointer;
 }
 
-#contactMenu{
-  margin-right: 0;
 
-}
 
 .footerLogo { margin-right: 25px; }
 
 .addressBox{
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1em;
   margin-top:5px;
   height:70px;
   display: flex;
@@ -538,11 +562,12 @@ box-shadow: 0px -3px 6px -3px rgba(26,26,26,1);
   justify-content: center;
   text-align: center;
   width: 710px;
-  background-color: white;
+  color: white;
+
 }
 
 .addressBox p {
-  font-size: 20px;
+  font-size: 1em;
   font-family: interstate-condensed, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -582,11 +607,14 @@ Beggining of the projects pag*/
 }
 
 .projectTitle{
-  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
   font-weight: bold;
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
 
 #imageHolder{
   margin-bottom: 110px;
@@ -594,10 +622,13 @@ Beggining of the projects pag*/
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width:1280px;
-  height:780px;
-  background-image: url(../images/free-stock-photos/bgPic-project.jpg);
+  width:1025px;
+  height:800px;
+  background-image: url(../images/Mobile-Header.png);
   background-repeat:no-repeat;
+}
+#mobileVid{
+  display: none;
 }
 
 #photoText{
@@ -605,7 +636,7 @@ Beggining of the projects pag*/
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: rgba(87, 110, 115, .66);
+  background-color: rgba(255, 255, 255, .66);
   width:750px;
   height:250px;
 
@@ -613,10 +644,10 @@ Beggining of the projects pag*/
 
 #projectPicTitle{
   font-family: 'EB Garamond', sans-serif;
-  font-size:36px;
+  font-size:2em;
   font-style: italic;
   font-weight: bold;
-  color: white;
+  color: black;
 
   margin-top: 20px;
   margin-bottom: 30px;
@@ -625,8 +656,8 @@ Beggining of the projects pag*/
 #textPhoto{
   text-align: left;
   width:700px;
-  font-size: 22px;
-  color:white;
+  font-size: 1em;
+  color:black;
 }
 
 
@@ -637,10 +668,13 @@ Beggining of the projects pag*/
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 35px;
+  font-size: 1.5em;
   font-weight: bold;
   margin-top:100px;
+
+  background-color: #e3ecc1;
   width: 1280px;
+  height: 250px;
 }
 
 .monitoring{
@@ -649,19 +683,17 @@ Beggining of the projects pag*/
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
+  font-size: 2em;
   font-weight: bold;
 }
 
 #fundraising {
-  background-color: #cbe2ea;
-  width: 1280px;
-  height: 250px;
+
 
 }
 
 #fundraising h1{
-  font-size: 48px;
+  font-size: 2.5em;
   margin-bottom: 20px;
   font-weight: bolder;
 }
@@ -721,9 +753,9 @@ Beggining of the projects pag*/
   font-family: interstate, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 1em;
 
-  background-color: #aef800;
+  background-color: rgba(174, 174, 174, .85);
   border: none;
   transition: all 0.8s;
 
@@ -732,7 +764,7 @@ Beggining of the projects pag*/
 
 .fund:hover {
   cursor: pointer;
-  background-color: #ffffff;
+  background-color:#aef800 ;
   border-radius: 15px;
 
 }
@@ -741,7 +773,7 @@ Beggining of the projects pag*/
   margin-top: 40px;
   margin-bottom: 60px;
 
-  font-size: 50px;
+  font-size: 2.5em;
 }
 
 .projectContent {
@@ -750,7 +782,7 @@ Beggining of the projects pag*/
   width: 1280px;
   justify-content: space-around;
 
-  font-size: 20px;
+  font-size: 1.5em;
 }
 
 #project-three{
@@ -768,36 +800,33 @@ Beggining of the projects pag*/
   align-items: center;
 }
 
-#project-part {
+.project-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   margin: 70px 0 30px 0;
 }
 
-#project-part h1 {
-  font-size:  30px;
+.project-part h1 {
+  font-size:  2em;
   font-weight: 600;
 
   margin-bottom: 10px;
 }
 
-#project-part p {
-  font-size: 18px;
-  margin: 20px 0 100px 0;
+.project-part p {
+  font-size: .8em;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+.fund h2{
+  text-align: center;
 }
 
-#project-part button {
-  font-size: 35px;
-  background-color: #a6be4f;
-  transition: all 0.5s;
-  border: none;
 
-  margin-top: 30px;
-}
 
-#project-part button:hover {
-  background-color: #fff;
-  cursor: pointer;
 
-}
 
 
 
@@ -816,7 +845,7 @@ Beggining of the projects pag*/
 #second-text {
   margin-top: 40px;
   margin-bottom: 60px;
-  font-size: 50px;
+  font-size: 2.5em;
 }
 
 
@@ -829,21 +858,12 @@ Beggining of the projects pag*/
 
   margin-top: 100px;
   margin-bottom: 300px;
-  font-size: 20px;
+  font-size: 1.5em;
 
 }
-
-.archives h2 {
-  font-size: 30px;
-  font-weight: 600;
-
-  margin-bottom: 10px;
-}
-
 
 .archives button {
-  font-size: 35px;
-
+  font-size: 2em;
   background-color: #a6be4f;
   margin: 30px;
   border: none;
@@ -877,13 +897,13 @@ Beggining of the projects pag*/
 }
 
 .newsTitle{
-  font-size: 40px;
+  font-size: 2.5em;
   font-weight: bolder;
   margin-bottom: 20px;
 }
 
 .newsSub{
-  font-size: 25px;
+  font-size: 2em;
   font-weight: 500;
   margin-bottom: 40px;
 }
@@ -892,30 +912,36 @@ Beggining of the projects pag*/
   font-family: interstate, sans-serif;
   font-weight: 200;
   font-style: normal;
-  font-size: 30px;
+  font-size: 1.5em;
   line-height: 35px;
-
+margin-top: 100px;
+margin-bottom: 100px;
   text-align: center;
 }
 
 .newstext-2 {
-  width: 1200px;
-  height: 600px;
-  background: #f3e5ba;
+  display: flex;
+  flex-direction: row;
+}
+.text{
+  margin-top: 337.5px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
 
-  padding-top: 100px;
 }
 
 #uppertext {
-  width: 1000px;
-  height: 300px;
+  width: 400px;
+  height: 180px;
   margin-left: 100px;
+  margin-bottom: 130px;
 }
 
 #belowtext {
 
-  width: 1000px;
-  height: 300px;
+  width: 400px;
+  height: 180px;
   margin-left: 100px;
 }
 
@@ -931,7 +957,7 @@ Beggining of the projects pag*/
 }
 
 #archiveTitle{
-  font-size: 45px;
+  font-size: 2.5em;
   font-weight: bolder;
 }
 
@@ -947,7 +973,7 @@ Beggining of the projects pag*/
 }
 
 .archItems{
-  font-size: 35px;
+  font-size: 2em;
   font-weight: bold;
   width:1250px;
   height:500px;
@@ -969,7 +995,7 @@ Beggining of the projects pag*/
 
 .archItems a:hover{
   cursor: pointer;
-  color:#002259;
+  color:#004dc9;
 }
 
 .year{
@@ -1002,6 +1028,7 @@ Beggining of the projects pag*/
 }
 
 #y2008{
+  margin-left: 90px;
   margin-top: 110px;
 }
 #y2008 h1{
@@ -1015,4 +1042,1109 @@ Beggining of the projects pag*/
 #y2007 h1{
 
   margin-bottom: 10px;
+}
+
+/* Links Page  */
+
+#mainContentLinks{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#firstLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 30%;
+}
+
+.linkBox{
+  margin: 100px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 400px;
+  height: 600px;
+  border: 1px solid #9fa587;
+  background-color: #e3ecc1;
+}
+#linkPic1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../images/link1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30%;
+}
+
+#linkPic2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/link2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30%;
+}
+
+#linkPic3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/link3.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30%;
+}
+
+#linkPic4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/link4.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30%;
+}
+
+#linkPic5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/link5.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30%;
+}
+.linkIMG{
+  height: 186px !important;
+}
+
+
+
+.linkBox h1{
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+}
+
+#secondLinks{
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#linksTitle{
+  margin-top: 50px;
+  font-size: 2.5em;
+  font-weight: bold;
+
+}
+
+#linksSubtitle{
+  font-size: 2em;
+  font-weight: normal;
+  color: rgba(0, 0, 0, .7)
+}
+
+.linkText{
+  padding: 15px 0 15px 0;
+  text-align: center;
+
+  border-bottom: 1px solid #9fa587;
+}
+.linkText:hover{
+  cursor: pointer;
+  background-color: #9fa587;
+}
+
+.currentEvent{
+  margin: 10px 0 40px 0;
+  background-color: #e3ecc1;
+  width: 70%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+  padding: 0 40px 0 40px;;
+}
+
+.currentEvent h1{
+  font-size: 2em;
+  font-weight: bold;
+  width: 100%;
+
+}
+
+.currentEvent h2{
+  width: 100%;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.currentEvent p{
+  padding-top:20px;
+  border-top: 5px solid black;
+}
+
+.pastEvents{
+  width:590px;
+  height: 830px;
+  border: 5px solid #dde8e4;
+
+}
+
+.pastEvents:last-child{
+  margin-left: 50px;
+}
+
+.PEBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.pastEvents{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pastEvents h1{
+  margin-top: 50px;
+  font-size: 2em;
+  font-weight: bold;
+
+}
+
+.pastEvents h2{
+  margin-right: 50px;
+  width: 100%;
+  margin-top: 20px;
+  text-align: right;
+  font-style: italic;
+  font-size: 1em;
+}
+
+form{
+  margin: 50px 0 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+label{
+  margin: 10px 0 50px 0;
+  font-size: 1em;
+
+}
+
+#forms div{
+  margin: 10px 10px 50px 0px;
+}
+
+input{
+  font-size: 1.5em;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #e3ecc1;
+}
+
+#membership{
+
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e3ecc1;
+}
+
+#membership h1{
+  margin-top: 20px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#membership .button{
+  margin-left: 50px;
+}
+
+#burgerMenu{
+  background-image: url(../images/burgerIcon.svg);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+.carouselIMGs{
+  display: none;
+}
+#dropMenu{
+  display: none;
+}
+#mobileVid{
+  display: none;
+}
+.memberScreen{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  background-color: rgba(206, 210, 192, .5);
+
+  font-size: 2.5em;
+  text-align: center;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+#membertitle{
+  margin-top: 250px;
+}
+.memberScreen h1{
+  position: absolute;
+  color: #879b40;
+}
+.showScreen{
+  display: flex;
+}
+#closebutton{
+  align-self: flex-start;
+
+  font-size: .8em;
+  color: red;
+}
+#closebutton:hover{
+  cursor: pointer !important;
+}
+.pastEvents img{
+  margin-top: 25px;
+  width: 450px;
+}
+.pastEvents p{
+  margin-top: 40px;
+  padding: 40px;
+}
+#contactinfo{
+
+  width: 1100px;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  font-size: 1.5em;
+  background-color: #e3ecc1;
+  margin-bottom: 100px;
+}
+#contactinfo div{
+  margin:50px 0 50px 0;
+  margin-left: 25%;
+
+}
+#contactinfo div h1{
+  font-weight: bold;
+}
+#contactinfo div h2{
+  font-style: italic;
+}
+#contacttitle{
+  margin-top: 20px;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  font-size:1.2em;
+}
+#tabletVid{
+  display: none;
+}
+
+
+@media only screen and (max-width: 767px){
+  .mainNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .mainNav ul{
+    display: none;
+  }
+  .eventWrapper{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .welcomeText h1{
+    font-size: .8em;
+  }
+  .event{
+    margin-bottom: 50px;
+  }
+  #burgerMenu{
+    margin-top: 100px;
+    display: block;
+  }
+  #imgBG{
+    align-self: center;
+    width: 375px;
+    height: 100%;
+    background-image: url(../images/homepage-firstimg-mobile.jpg);
+  }
+
+  .businessBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    width: 375px;
+  }
+  .businessBox h1{
+
+    font-size: 1.4em;
+  }
+  .businessBox h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: .75em;
+    width: 300px;
+  }
+  #about{
+    margin-top: 0 !important;
+  }
+  .aboutTitle{
+    font-size: 2em;
+  }
+  .aboutSub{
+    font-size: .8em;
+  }
+  #iconsUp{
+    width: 375px ;
+  }
+  .icon{
+    width: 100px;
+  }
+  .icon img{
+    height: 50px;
+  }
+  #iconsUp h3{
+    width: 100px;
+    font-size: .7em;
+  }
+  #iconsDown{
+    width: 375px;
+  }
+  #iconsDown h3{
+    width: 80px;
+    font-size: .7em;
+  }
+  .button{
+    width: 150px;
+  }
+  .button h2{
+    font-size: .8em;
+  }
+  .supportingBus h1{
+    font-size: 1em;
+  }
+  .supportingBus h2{
+    clear: both;
+    font-size: .8em;
+  }
+  #carousel{
+    margin-bottom: 200px;
+    text-align: center;
+    width: 300px;
+    align-self: center;
+    margin-left: 0 auto;
+  }
+  .box p{
+    display: none;
+  }
+  .carouselIMGs{
+    position: absolute;
+    display: none;
+  }
+  .box{
+    display: none;
+  }
+
+  .active{
+    display: block !important;
+  }
+  .creditBox{
+    padding: 0;
+    margin-top: 200px;
+    width:375px;
+  }
+  .creditBox p {
+    font-size: .8em;
+  }
+  .creditBox h1{
+    font-size: 1.6em;
+  }
+  .secondRow{
+    width: 200px;
+  }
+  .creditBox:last-child{
+    margin-top: 0 !important;
+  }
+  .footerLogo{
+    width: 100px;
+  }
+  #faceIcon{
+    display: none;
+  }
+  .addressBox {
+    width: 100%;
+  }
+  #credits{
+    width: 375px;
+  }
+  #newsSection{
+    width:100%;
+  }
+  .mainFooter ul{
+    display: none;
+  }
+  #dropMenu{
+
+    text-align: center;
+    height: 150px;
+    background-color: #a6be4f4d;
+  }
+  #dropMenu li{
+    padding-top: 7px;
+    text-decoration: none;
+    color: #7b8c3a;
+    border: 1px solid #7b8c3a;
+
+  }
+  #dropMenu:last-child{
+    border: 0px !important;
+  }
+  .showDrop{
+    display: block !important;
+  }
+  .event{
+    width: 375px;
+  }
+  .event p {
+    width: 375px;
+  }
+  .event h3{
+    font-size: 2em;
+    width: 375px;
+    text-align: center;
+  }
+  iframe{
+    width: 375px;
+  }
+  #volunteer2{
+    margin-right: 50px;
+  }
+  #personN4{
+    margin-right: 60px;
+  }
+  .currentEvent{
+    height: 400px;
+  }
+  .PEBox{
+    margin-bottom: 0;
+    width: 375px;
+    flex-direction: column;
+  }
+  .pastEvents{
+    margin-top: 40px;
+    width: 375px;
+  }
+  .pastEvents:last-child{
+    margin-left: 0 !important;
+  }
+  .button{
+    display: none;
+  }
+  .last{
+    margin-bottom: 50px;
+  }
+  #imageHolder{
+    width: 375px;
+    height: 300px;
+    background-image: url(../images/Mobile-HeaderMobile.png);
+  }
+  #photoText{
+    width: 80%;
+    height: 40%;
+  }
+  #photoText h1{
+    font-size: 1em;
+  }
+  #photoText h2{
+    font-size: .6em;
+  }
+  #textPhoto{
+    width: 80%;
+  }
+  #desktopVid{
+    display: none;
+  }
+  #mobileVid{
+    display: block;
+  }
+  #fundraising{
+    width: 360px;
+    height: 70px;
+  }
+  #fundraising h1{
+    display: none;
+  }
+  .button2{
+    width: 100px;
+    height: 70px;
+  }
+  .button1{
+    width: 100px;
+    height: 70px;
+  }
+  .button3{
+    width: 100px;
+    height: 70px;
+  }
+  .fund{
+    text-align: center;
+    width: 100px;
+    height: 40px;
+  }
+  .fund h2{
+    font-size: .5em;
+  }
+  .fund-button{
+    width: 375px;
+    margin-bottom: 0;
+  }
+  .project-part h1{
+    display: none;
+  }
+  .project-part p{
+    display: none;
+  }
+  .projectPage{
+    display: block;
+  }
+  .project-part img{
+    width: 160px;
+    height: 124px;
+  }
+  .projectContent{
+    width: 375px;
+  }
+  .proj-image img{
+    width: 160px;
+    height: 120px;
+  }
+  .archives{
+    margin-top: 0;
+    width: 375px;
+  }
+  #projects{
+
+    width: 375px;
+  }
+  #second-text{
+    display: none;
+  }
+  .newsSub h2{
+    display: none;
+  }
+  .newsSub h1{
+
+    font-size: 1em;
+  }
+  .newstext-2 img{
+    width: 40%;
+    height: 60%;
+
+  }
+  .newstext-2{
+    height: 400px;
+  }
+  .text{
+    width: 120px;
+  }
+  #uppertext{
+    margin-top: -335px;
+    margin-left: 60px;
+    line-height: 1.6;
+    font-size: .4em;
+    width: 175px;
+  }
+  #belowtext{
+    margin-top: -160px;
+    margin-left: 60px;
+    line-height: 1.6;
+    font-size: .4em;
+    width: 175px;
+  }
+  #archiveSub{
+    display: none;
+  }
+  .archItems{
+
+    flex-direction: column-reverse;
+    height: 500px;
+
+
+    font-size: 1em;
+    width: 200px;
+    background-image: url(../images/archive-backgroundMobile.png);
+  }
+  .year{
+    width: 50px;
+    transform: rotate(-90deg);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #y2011{
+    margin-left: 4px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+  }
+  #y2010{
+    margin-bottom: 5px;
+    margin-left: 33px;
+
+  }
+  #y2009{
+    margin-bottom: -100px;
+    margin-left: 55px;
+  }
+  #y2008{
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-bottom: -25px;
+  }
+  #y2007{
+    margin-left: 85px;
+    margin-bottom: -20px;
+  }
+  #archiveTitle{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .archive{
+    width: 375px;
+    margin-top: 25px;
+  }
+  .wrapperBodyText{
+    height: 400px;
+  }
+  #linksSubtitle{
+    display: none;
+  }
+  #firstLinks{
+    flex-direction: column;
+  }
+  #secondLinks{
+    width: 100%;
+    flex-direction: column;
+  }
+  #mainContentLinks{
+    align-items: flex-start;
+  }
+  .linkBox{
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  #linksTitle{
+    width: 100%;
+    text-align: center;
+  }
+  #contactIntro p {
+    display: none;
+  }
+  #mainContact h1{
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+  }
+  #membership{
+    width: 400px;
+    margin-bottom: 25px;
+  }
+  form{
+    flex-direction: column;
+  }
+  #mainContact .button{
+    display: flex;
+  }
+  .memberScreen{
+    display: none;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    background-color: rgba(206, 210, 192, .5);
+
+    font-size: 2.5em;
+    text-align: center;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .memberScreen h1{
+    color: #879b40;
+  }
+  .showScreen{
+    display: flex;
+  }
+  #closebutton{
+    align-self: flex-start;
+
+    font-size: .8em;
+    color: red;
+  }
+  .productimgs{
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  .productimgs img{
+    margin:30px 0 20px 0;
+
+  }
+  #bottle{
+    height: 150px;
+
+  }
+  #cooler{
+    width: 300px;
+    height: 166px;
+  }
+  #bag{
+    width: 300px;
+    height: 250px;
+  }
+  .pastEvents img{
+    width: 350px;
+  }
+  .pastEvents p{
+    margin-top: 20px;
+  }
+  #contactinfo{
+    font-size: .8em;
+    width: 400px;
+  }
+  #contactinfo div h2{
+    width: 100%;
+    text-align: center;
+  }
+  #contactinfo div{
+    margin-left: 0;
+  }
+
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px){
+  .mainNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .mainNav ul{
+    display: none;
+  }
+  #burgerMenu{
+    margin-top: 100px;
+    display: block;
+  }
+  .active{
+    display: block !important;
+  }
+  #dropMenu{
+
+    text-align: center;
+    height: 200px;
+    background-color: #a6be4f4d;
+  }
+  #dropMenu li{
+    font-size: 1.5em;
+    padding-top: 7px;
+    text-decoration: none;
+    color: #7b8c3a;
+    border: 1px solid #7b8c3a;
+
+  }
+  #dropMenu:last-child{
+    border: 0px !important;
+  }
+  .showDrop{
+    display: block !important;
+  }
+  #imgBG{
+    background-image: url(../images/homepage-firstimgTablet.png);
+    width: 750px;
+    height: 450px;
+  }
+  .businessBox{
+
+    width: 750px;
+
+  }
+  .businessBox h2{
+    width:600px;
+  }
+  .box{
+    display: none;
+  }
+  #carousel{
+    margin-top: 25px;
+    margin-bottom: 150px;
+  }
+  #iconsUp{
+    width: 600px ;
+  }
+  .icon{
+    width: 100px;
+    margin-right: 100px;
+  }
+  .icon:last-child{
+    margin-right: 0;
+  }
+  .icon img{
+    height: 100px;
+
+  }
+  #iconsUp h3{
+    width: 100px;
+    font-size: .7em;
+  }
+  #iconsDown{
+    width: 600px;
+  }
+  #iconsDown h3{
+    width: 80px;
+    font-size: .7em;
+  }
+  #about{
+    width: 750px;
+  }
+  #newsSection{
+    align-items: center;
+  }
+  .eventWrapper{
+    margin:0 auto;
+    width: 750px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .event{
+    margin-top: 80px;
+  }
+  .productimgs img{
+    height: 168px;
+  }
+  .productimgs{
+    width: 750px !important;
+  }
+  .creditBox{
+    width: 750px;
+  }
+  .creditBox p{
+    font-size: 1.3em;
+  }
+  .footerLogo{
+    width: 300px;
+  }
+  #faceIcon{
+    display: none;
+  }
+  .addressBox {
+    font-size: 1.1em;
+    width: 100%;
+  }
+  .mainFooter ul{
+    display: none;
+  }
+  .PEBox{
+    flex-direction: column;
+    align-items: center;
+  }
+  .pastEvents{
+    margin:50px 0 0 0 !important;
+  }
+  #desktopVid{
+    display: none;
+  }
+  #tabletVid{
+    display: block;
+  }
+  #imageHolder{
+    margin-bottom: 0px;
+    height: 650px;
+    width: 750px;
+    background-image: url(../images/Mobile-HeaderTablet.png);
+  }
+  #fundraising{
+    width: 750px;
+    height: 200px;
+  }
+  .fund-button{
+    width:700px;
+    height: 200px;
+  }
+  .button1{
+    width: 200px;
+    height: 130px;
+  }
+  .button2{
+    width: 200px;
+    height: 130px;
+  }
+  .button3{
+    width: 200px;
+    height: 130px;
+  }
+  .fund{
+    width: 200px;
+    height: 40px;
+    font-size: .8em;
+  }
+  #fundraising h1{
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  .supportingBus h2{
+    display: none;
+  }
+  .projectContent {
+    display: none
+  }
+  .projectContent p {
+    display: none;
+  }
+  .project-part img{
+    width: 300px;
+    height: 259px;
+  }
+  .projectContent{
+    width: 750px;
+  }
+  #second-text{
+    display: none;
+  }
+  .archives{
+    margin-bottom: 100px;
+    width: 750px;
+  }
+  .archives img{
+    width: 300px;
+    height: 189px;
+  }
+  #projects{
+    width: 100%;
+  }
+  .newstext-2 img{
+    height: 500px;
+    width: 300px;
+  }
+  .newstext-2{
+    align-items: center;
+    width: 635px;
+    height: 500px;
+  }
+  #uppertext{
+    font-size: .8em;
+    line-height: 1.6;
+    margin: 0 0 80px 0;
+  }
+  #belowtext{
+    font-size: .8em;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .text{
+
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  #archiveSub{
+    display: none;
+  }
+  .archItems{
+  margin-bottom: 50px;
+  width: 700px;
+  font-size: 1.3em;
+  height: 200px;
+    background-image: url(../images/archive-backgroundTablet.png);
+  }
+  #y2011{
+    margin:15px 0 0 0;
+  }
+  #y2010{
+    margin:50px 0 0 75px;
+  }
+  #y2009{
+    margin:10px 0 0 80px;
+  }
+  #y2008{
+    margin:60px 0 0 70px;
+  }
+  #y2007{
+    margin:60px 0 0 30px;
+  }
+  .archive{
+    width: 750px;
+  }
+  #linksSubtitle{
+    display: none;
+  }
+  #firstLinks{
+    align-items: center;
+    flex-direction: column;
+  }
+  #secondLinks{
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  #mainContentLinks{
+    align-items: center;
+  }
+  .linkBox{
+    margin: 25px 0 25px 0;
+  }
+  #membership{
+    width: 750px;
+  }
+  #contactinfo{
+    width: 750px;
+  }
 }
