@@ -22,7 +22,11 @@ body{
 
 }
 
-
+video {
+  width: 900px;
+  padding: 20px;
+  margin-left: 400px;
+}
 
 .mainNav{
   background: -moz-linear-gradient(top, #a6be4f 0%, #7b8c3a 100%);
